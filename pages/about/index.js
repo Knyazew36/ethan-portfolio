@@ -1,4 +1,5 @@
 // icons
+import { useState } from "react";
 import {
   FaHtml5,
   FaCss3,
@@ -14,7 +15,6 @@ import {
   SiAdobexd,
   SiAdobephotoshop,
 } from "react-icons/si";
-
 //  data
 const aboutData = [
   {
@@ -86,6 +86,8 @@ const aboutData = [
     ],
   },
 ];
+import { motion } from "framer-motion";
+import { fadeIn } from "../../variants";
 
 import Avatar from "../../components/Avatar";
 import Circles from "../../components/Circles";
@@ -119,7 +121,7 @@ const About = () => {
                   className={`${
                     index === itemIndex &&
                     "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"
-                  }cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0 cursor-pointer`}
+                  } capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0 cursor-pointer`}
                   onClick={() => setIndex(itemIndex)}
                 >
                   {item.title}
@@ -144,4 +146,3 @@ const About = () => {
 };
 
 export default About;
-//TODO: https://www.youtube.com/watch?v=qp0-L_M3Ad4&t=3184s 125 иссправить !
