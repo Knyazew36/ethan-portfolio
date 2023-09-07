@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Socials from "./Socials";
 
 const Header = () => {
   return (
@@ -9,6 +10,7 @@ const Header = () => {
           <Link href={"/"}>
             <Image src={"/logo.svg"} width={220} height={48} priority={true} />
           </Link>
+          <Socials />
         </div>
       </div>
     </header>
