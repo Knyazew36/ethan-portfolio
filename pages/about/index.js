@@ -1,5 +1,4 @@
 // icons
-import { useState } from "react";
 import {
   FaHtml5,
   FaCss3,
@@ -93,11 +92,8 @@ import Avatar from "../../components/Avatar";
 import Circles from "../../components/Circles";
 import { useState } from "react";
 
-import { motion } from "framer-motion";
-import { fadeIn } from "../../variants";
-
 const About = () => {
-  const [index, setIndex] = useState();
+  const [index, setIndex] = useState(1);
   return (
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
       <Circles />
