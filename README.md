@@ -1,7 +1,7 @@
 *Проект закончен* / *Project end*
 # EsPortfolio
 ## Стек, используемый при разработке:
-> - *SCSS* ![ss](readmi-icons/icons8-sass-64.png)
+> - ![ss](readmi-icons/icons8-sass-64.png)
 
 
 Запуск проекта: / Launch of the project:
