@@ -1,6 +1,13 @@
 *Проект закончен* / *Project end*
 # EsPortfolio
 ## Стек, используемый при разработке:
+
+<div align="center">
+  <img src="readmi-icons/next.png" width="auto" height="30">
+  <p>Ваш текст</p>
+</div>
+
+
 > - *NextJS* <img src="readmi-icons/next.png" width="auto" height="30">
 > - *Framer Motion* <img src="readmi-icons/framer.png" width="auto" height="30">
 > - *Tailwind* <img src="readmi-icons/tailwind.png" width="auto" height="30">
