@@ -101,5 +101,3 @@ const WorkSlider = () => {
 };
 
 export default WorkSlider;
-
-//TODO: https://www.youtube.com/watch?v=qp0-L_M3Ad4&t=3184s 221
