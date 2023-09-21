@@ -2,9 +2,14 @@
 # EsPortfolio
 ## Стек, используемый при разработке:
 
-<div align="center">
+
+<div style="display:flex; flex-direction: column; ">
+<div style="display: flex;  justify-content: center; align-items: center;">
   <img src="readmi-icons/next.png" width="auto" height="30">
-  <p>Ваш текст</p>
+  *NextJS*
+</div>
+
+  
 </div>
 
 
